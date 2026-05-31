@@ -1,0 +1,21 @@
+pub mod individual;
+pub mod selection;
+pub mod crossover;
+pub mod mutation;
+pub mod ga;
+pub mod fitness;
+pub mod gp;
+pub mod de;
+pub mod nsga2;
+pub mod diversity;
+
+pub use individual::*;
+pub use selection::*;
+pub use crossover::*;
+pub use mutation::*;
+pub use ga::*;
+pub use fitness::*;
+pub use gp::*;
+pub use de::*;
+pub use nsga2::*;
+pub use diversity::*;
